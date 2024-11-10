@@ -25,4 +25,6 @@ DuckDNS to make the API accessible to the internet.
 
 Mobile app to do scheduled and on-demand activation/deactivation of the pump.
 
+## Setup
+
 Recipe available [here](Recipe).
