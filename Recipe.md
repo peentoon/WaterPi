@@ -4,10 +4,10 @@ Download Raspberry Pi OS installer from https://www.raspberrypi.com/software/
 
 Select Raspberry OS Lite 32
 
-Customize settings:
+Customize settings via advanced options menu (CTRL+SHIFT+X to access it):
 - Give it a name
 - Configure WiFi
-- Define main user and it password
+- Define main user and its password
 - Activate SSH
 
 Flash on SD Card.
@@ -21,6 +21,7 @@ Insert it into Raspberry PI and boot.
 Find IP of Raspberry Pi in your Network:
 - either by logging into the web interface and your router and scrolling the list of connected devices
 - or from the Command Prompt, using `arp -a` before and after turning on the Pi, to find the newly added IP.
+- or via arp-scan (https://github.com/royhills/arp-scan) `arp-scan --localnet`
  
 Install PuTTY from https://www.putty.org/
 
@@ -35,11 +36,14 @@ Login with the user defined at OS creation.
 
 All next steps will be done from the SSH session in the Pi.
 
+# Update Raspberry OS Lite
+```
+sudo apt update -y && sudo apt upgrade -y
+```
 # Setup Flask
 
 Install pip to manage a virtual environment:
 ```
-sudo apt update -y && sudo apt upgrade -y
 sudo apt install pip
 ```
 
