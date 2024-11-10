@@ -11,10 +11,11 @@ Tank to collect rain water.
 Waterproof box containing:
 - Solar panel 10W (on top)
 - PWM regulator
-- Lead acid battery
+- 12V lead acid battery
+- 5V mini USB regulator
 - Raspberry Pi Zero W
 - Relay module
-- Pump
+- 12V Pump
 
 ## Software
 
