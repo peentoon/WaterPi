@@ -24,3 +24,5 @@ REST API implemented in Python with Flask.
 DuckDNS to make the API accessible to the internet.
 
 Mobile app to do scheduled and on-demand activation/deactivation of the pump.
+
+Recipe available [here](Recipe).
