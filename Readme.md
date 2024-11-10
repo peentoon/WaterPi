@@ -14,6 +14,7 @@ Waterproof box containing:
 - Lead acid battery
 - Raspberry Pi Zero W
 - Relay module
+- Pump
 
 ## Software
 
