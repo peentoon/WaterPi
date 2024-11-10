@@ -12,7 +12,7 @@ Waterproof box containing:
 - Solar panel 10W (on top)
 - PWM regulator
 - 12V lead acid battery
-- 5V mini USB regulator
+- 12V -> 5V mini USB regulator
 - Raspberry Pi Zero W
 - Relay module
 - 12V Pump
