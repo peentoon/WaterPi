@@ -37,9 +37,11 @@ Login with the user defined at OS creation.
 All next steps will be done from the SSH session in the Pi.
 
 # Update Raspberry OS Lite
+
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
+
 # Setup Flask
 
 Install pip to manage a virtual environment:
@@ -55,6 +57,13 @@ python -m venv pythonenv
 . pythonenv/bin/activate
 pip install Flask
 ```
+
+# Deploy the service
+
+Copy the content of [service.py](service.py) into the `waterpi-backend` directory.
+
+Run the backend with Flask:
+`flask --app service run --host=0.0.0.0`
 
 
 
