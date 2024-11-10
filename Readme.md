@@ -29,4 +29,4 @@ Mobile app to do scheduled and on-demand activation/deactivation of the pump.
 
 ## Setup
 
-Recipe available [here](Recipe).
+Recipe available [here](Recipe.md).
