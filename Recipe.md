@@ -35,10 +35,24 @@ Login with the user defined at OS creation.
 
 All next steps will be done from the SSH session in the Pi.
 
-# Flask
+# Setup Flask
 
-Install PIP: `sudo apt install pip`
+Install pip to manage a virtual environment:
+```
+sudo apt update -y && sudo apt upgrade -y
+sudo apt install pip
+```
 
-Install Flask: `pip install Flask`
+Make a project directory, create a virtual env and install Flask there:
+```
+mkdir waterpi-backend
+cd waterpi-backend
+python -m venv pythonenv
+. pythonenv/bin/activate
+pip install Flask
+```
+
+
+
 
 
