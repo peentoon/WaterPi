@@ -1,4 +1,4 @@
-# OS
+# Install the OS
 
 Download Raspberry Pi OS installer from https://www.raspberrypi.com/software/
 
